@@ -1,0 +1,42 @@
+# Large Corpus Datasets (>100MB exceeds GitHub limits and forks block LFS)
+IITB_score_gt_065.en
+IITB_score_gt_065.hi
+*.en
+*.hi
+
+# Compiled binaries and object files
+*.o
+*.obj
+*.exe
+*.out
+
+# Common C executable names from this project
+Block_indexing
+offset_file_gen
+search_seq
+search_par_debugged
+search_par_modified
+search_block
+search_2level
+search_two_thread_bilingual_and
+search_8thread_bilingual_and
+search_2level_bilingual_and
+search_two_phase
+search_two_phase_or
+search_bidirectional_bilingual_and
+sequential_or
+sequential_retrieval
+sequential_two_word
+
+# Generated run indices/logs/partitions
+line_index.txt
+en_partitions.txt
+hi_partitions.txt
+government_indices*.txt
+*_indices.txt
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
